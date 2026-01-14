@@ -1,0 +1,154 @@
+{
+  "lastUpdated": "2025-01-14",
+  "dataQualityNote": "Historical HumanEval scores compiled from various sources including OpenAI blog posts, Anthropic announcements, research papers, and benchmarks.json. All scores use pass@1 metric.",
+  "benchmark": "HumanEval",
+  "metric": "pass@1",
+  "description": "HumanEval is a code generation benchmark consisting of 164 Python programming problems. The pass@1 metric measures the percentage of problems solved correctly on the first attempt.",
+  "results": [
+    {
+      "date": "2021-07-15",
+      "model": "Codex",
+      "vendor": "OpenAI",
+      "value": 28.8,
+      "source": "openai-codex-paper",
+      "sourceUrl": "https://arxiv.org/abs/2107.03374",
+      "notes": "Original HumanEval benchmark release with Codex"
+    },
+    {
+      "date": "2021-07-15",
+      "model": "GPT-3",
+      "vendor": "OpenAI",
+      "value": 0,
+      "source": "openai-codex-paper",
+      "sourceUrl": "https://arxiv.org/abs/2107.03374",
+      "notes": "Baseline comparison in original HumanEval paper"
+    },
+    {
+      "date": "2022-11-30",
+      "model": "GPT-3.5",
+      "vendor": "OpenAI",
+      "value": 48.1,
+      "source": "openai-chatgpt",
+      "sourceUrl": "https://openai.com/blog/chatgpt",
+      "notes": "ChatGPT initial release (gpt-3.5-turbo-0301)"
+    },
+    {
+      "date": "2023-03-14",
+      "model": "GPT-4",
+      "vendor": "OpenAI",
+      "value": 67.0,
+      "source": "openai-gpt4-technical-report",
+      "sourceUrl": "https://arxiv.org/abs/2303.08774",
+      "notes": "GPT-4 initial release"
+    },
+    {
+      "date": "2023-06-13",
+      "model": "GPT-3.5-Turbo",
+      "vendor": "OpenAI",
+      "value": 80.0,
+      "source": "gpt-fathom-paper",
+      "sourceUrl": "https://arxiv.org/abs/2309.16583",
+      "notes": "Upgraded gpt-3.5-turbo-0613 version"
+    },
+    {
+      "date": "2023-07-11",
+      "model": "Claude 2",
+      "vendor": "Anthropic",
+      "value": 70.0,
+      "source": "anthropic-claude2-announcement",
+      "sourceUrl": "https://www.anthropic.com/news/claude-2",
+      "notes": "Claude 2 initial release"
+    },
+    {
+      "date": "2023-11-06",
+      "model": "GPT-4-Turbo",
+      "vendor": "OpenAI",
+      "value": 85.2,
+      "source": "openai-devday",
+      "sourceUrl": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+      "notes": "GPT-4-Turbo with 128K context"
+    },
+    {
+      "date": "2024-03-04",
+      "model": "Claude 3 Opus",
+      "vendor": "Anthropic",
+      "value": 84.9,
+      "source": "anthropic-claude3-announcement",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-family",
+      "notes": "Claude 3 family release - largest model"
+    },
+    {
+      "date": "2024-04-09",
+      "model": "GPT-4-Turbo (April)",
+      "vendor": "OpenAI",
+      "value": 86.6,
+      "source": "openai-gpt4turbo-update",
+      "sourceUrl": "https://openai.com/index/gpt-4-turbo-with-vision-now-available-in-the-api",
+      "notes": "Updated GPT-4-Turbo"
+    },
+    {
+      "date": "2024-05-13",
+      "model": "GPT-4o",
+      "vendor": "OpenAI",
+      "value": 87.2,
+      "source": "openai-gpt4o-announcement",
+      "sourceUrl": "https://openai.com/index/hello-gpt-4o",
+      "notes": "GPT-4o initial release"
+    },
+    {
+      "date": "2024-06-20",
+      "model": "Claude 3.5 Sonnet",
+      "vendor": "Anthropic",
+      "value": 92.0,
+      "source": "anthropic-claude35-announcement",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "notes": "Claude 3.5 Sonnet initial release"
+    },
+    {
+      "date": "2024-09-12",
+      "model": "o1-preview",
+      "vendor": "OpenAI",
+      "value": 89.0,
+      "source": "openai-o1-announcement",
+      "sourceUrl": "https://openai.com/index/introducing-openai-o1-preview",
+      "notes": "OpenAI o1 reasoning model preview"
+    },
+    {
+      "date": "2024-12-25",
+      "model": "DeepSeek-V3",
+      "vendor": "DeepSeek",
+      "value": 82.6,
+      "source": "deepseek-v3-announcement",
+      "sourceUrl": "https://www.deepseek.com/",
+      "notes": "DeepSeek-V3 release"
+    },
+    {
+      "date": "2025-01-07",
+      "model": "o1 (Latest)",
+      "vendor": "OpenAI",
+      "value": 92.4,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "notes": "Updated o1 model with improved reasoning"
+    },
+    {
+      "date": "2025-01-07",
+      "model": "GPT-4o (Latest)",
+      "vendor": "OpenAI",
+      "value": 90.2,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "notes": "Updated GPT-4o model"
+    }
+  ],
+  "sources": [
+    "https://arxiv.org/abs/2107.03374",
+    "https://arxiv.org/abs/2309.16583",
+    "https://runloop.ai/blog/humaneval-when-machines-learned-to-code",
+    "https://www.emergentmind.com/topics/humaneval-coding-benchmark",
+    "https://openai.com/blog/chatgpt",
+    "https://www.anthropic.com/news/claude-2",
+    "https://www.anthropic.com/news/claude-3-family",
+    "https://www.anthropic.com/news/claude-3-5-sonnet"
+  ]
+}

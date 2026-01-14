@@ -1,0 +1,3132 @@
+{
+  "lastUpdated": "2025-12-21",
+  "dataQualityNote": "All results are sourced from AlphaXiv leaderboards or published papers. Speed benchmarks require independent verification.",
+  "results": [
+    {
+      "model": "mistral-ocr-2512",
+      "dataset": "codesota-verification",
+      "metric": "pages-per-second",
+      "value": 1.22,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3",
+      "accessDate": "2025-12-21",
+      "verified": true,
+      "verifiedBy": "CodeSOTA",
+      "notes": "Verified via CodeSOTA benchmark runner. 9 pages processed in 7.37 seconds. Model ID: mistral-ocr-2512 (Mistral 3 OCR Dec 2025 release)."
+    },
+    {
+      "model": "mistral-ocr-2512",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 79.75,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3",
+      "accessDate": "2025-12-21",
+      "verified": true,
+      "verifiedBy": "CodeSOTA",
+      "notes": "Same as mistral-ocr-3. Model alias for mistral-ocr-2512. Text: 90.1%, Tables: 70.9%, Formula: 78.2%."
+    },
+    {
+      "model": "coca-finetuned",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 91.0,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/2205.01917",
+      "accessDate": "2025-12-18",
+      "notes": "Current SOTA on ImageNet-1K. 2.1B parameters. Contrastive Captioner architecture."
+    },
+    {
+      "model": "vit-g-14",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 90.45,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/2106.04560",
+      "accessDate": "2025-12-18",
+      "notes": "Giant ViT variant. 1.8B parameters."
+    },
+    {
+      "model": "convnext-v2-huge",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 88.9,
+      "source": "meta-research",
+      "sourceUrl": "https://arxiv.org/abs/2301.00808",
+      "accessDate": "2025-12-18",
+      "notes": "Best pure ConvNet. 650M parameters. Trained with FCMAE."
+    },
+    {
+      "model": "vit-h-14",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 88.55,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/2010.11929",
+      "accessDate": "2025-12-18",
+      "notes": "Huge ViT variant. 632M parameters."
+    },
+    {
+      "model": "swin-large",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 87.3,
+      "source": "microsoft-research",
+      "sourceUrl": "https://arxiv.org/abs/2103.14030",
+      "accessDate": "2025-12-18",
+      "notes": "Hierarchical Vision Transformer with shifted windows."
+    },
+    {
+      "model": "efficientnet-v2-l",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 85.7,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/2104.00298",
+      "accessDate": "2025-12-18",
+      "notes": "Pretrained on ImageNet-21K, fine-tuned on 1K."
+    },
+    {
+      "model": "deit-b-distilled",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 85.2,
+      "source": "meta-research",
+      "sourceUrl": "https://arxiv.org/abs/2012.12877",
+      "accessDate": "2025-12-18",
+      "notes": "Data-efficient ViT with distillation. Trained on ImageNet-1K only."
+    },
+    {
+      "model": "efficientnet-b7",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 84.4,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/1905.11946",
+      "accessDate": "2025-12-18",
+      "notes": "8.4x smaller than GPipe. 66M parameters."
+    },
+    {
+      "model": "deit-b",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 83.1,
+      "source": "meta-research",
+      "sourceUrl": "https://arxiv.org/abs/2012.12877",
+      "accessDate": "2025-12-18",
+      "notes": "Without distillation. Trained from scratch on ImageNet-1K."
+    },
+    {
+      "model": "convnext-v2-tiny",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 83.0,
+      "source": "meta-research",
+      "sourceUrl": "https://arxiv.org/abs/2301.00808",
+      "accessDate": "2025-12-18",
+      "notes": "28M parameters. Efficient variant."
+    },
+    {
+      "model": "vit-l-16",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 82.7,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/2010.11929",
+      "accessDate": "2025-12-18",
+      "notes": "Large ViT with ImageNet-21K pretraining."
+    },
+    {
+      "model": "vit-b-16",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 81.2,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/2010.11929",
+      "accessDate": "2025-12-18",
+      "notes": "Base ViT with ImageNet-21K pretraining."
+    },
+    {
+      "model": "resnet-50-a3",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 80.4,
+      "source": "timm-research",
+      "sourceUrl": "https://arxiv.org/abs/2110.00476",
+      "accessDate": "2025-12-18",
+      "notes": "ResNet Strikes Back. Modern training recipe on classic architecture."
+    },
+    {
+      "model": "resnet-152",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 78.6,
+      "source": "microsoft-research",
+      "sourceUrl": "https://arxiv.org/abs/1512.03385",
+      "accessDate": "2025-12-18",
+      "notes": "10-crop evaluation. Original deep residual network."
+    },
+    {
+      "model": "efficientnet-b0",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 77.1,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/1905.11946",
+      "accessDate": "2025-12-18",
+      "notes": "Only 5.3M parameters. Baseline for compound scaling."
+    },
+    {
+      "model": "resnet-50",
+      "dataset": "imagenet-1k",
+      "metric": "top-1-accuracy",
+      "value": 76.15,
+      "source": "pytorch-vision",
+      "sourceUrl": "https://pytorch.org/vision/stable/models.html",
+      "accessDate": "2025-12-18",
+      "notes": "Standard torchvision baseline. 25M parameters."
+    },
+    {
+      "model": "swin-v2-large",
+      "dataset": "imagenet-v2",
+      "metric": "top-1-accuracy",
+      "value": 84.0,
+      "source": "microsoft-research",
+      "sourceUrl": "https://arxiv.org/abs/2111.09883",
+      "accessDate": "2025-12-18",
+      "notes": "SOTA on ImageNet-V2. Tests generalization."
+    },
+    {
+      "model": "convnext-v2-huge",
+      "dataset": "imagenet-v2",
+      "metric": "top-1-accuracy",
+      "value": 80.5,
+      "source": "meta-research",
+      "sourceUrl": "https://arxiv.org/abs/2301.00808",
+      "accessDate": "2025-12-18",
+      "notes": "Strong generalization to new test images."
+    },
+    {
+      "model": "vit-h-14",
+      "dataset": "cifar-100",
+      "metric": "accuracy",
+      "value": 94.55,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/2010.11929",
+      "accessDate": "2025-12-18",
+      "notes": "Fine-tuned from ImageNet pretraining."
+    },
+    {
+      "model": "vit-b-16",
+      "dataset": "cifar-100",
+      "metric": "accuracy",
+      "value": 91.48,
+      "source": "huggingface",
+      "sourceUrl": "https://huggingface.co/edumunozsala/vit_base-224-in21k-ft-cifar100",
+      "accessDate": "2025-12-18",
+      "notes": "Fine-tuned from ImageNet-21K."
+    },
+    {
+      "model": "deit-b-distilled",
+      "dataset": "cifar-10",
+      "metric": "accuracy",
+      "value": 99.1,
+      "source": "meta-research",
+      "sourceUrl": "https://arxiv.org/abs/2012.12877",
+      "accessDate": "2025-12-18",
+      "notes": "Near-SOTA on CIFAR-10 with transfer learning."
+    },
+    {
+      "model": "convnext-v2-base",
+      "dataset": "cifar-10",
+      "metric": "accuracy",
+      "value": 98.7,
+      "source": "meta-research",
+      "sourceUrl": "https://github.com/facebookresearch/ConvNeXt-V2",
+      "accessDate": "2025-12-18",
+      "notes": "Strong CNN performance on small-scale benchmark."
+    },
+    {
+      "model": "resnet-50",
+      "dataset": "cifar-10",
+      "metric": "accuracy",
+      "value": 96.01,
+      "source": "cutout-paper",
+      "sourceUrl": "https://arxiv.org/abs/1708.04552",
+      "accessDate": "2025-12-18",
+      "notes": "With Cutout augmentation."
+    },
+    {
+      "model": "efficientnet-b7",
+      "dataset": "cifar-100",
+      "metric": "accuracy",
+      "value": 91.7,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/1905.11946",
+      "accessDate": "2025-12-18",
+      "notes": "Transfer learning from ImageNet."
+    },
+    {
+      "model": "resnet-50",
+      "dataset": "cifar-100",
+      "metric": "accuracy",
+      "value": 78.04,
+      "source": "cutout-paper",
+      "sourceUrl": "https://arxiv.org/abs/1708.04552",
+      "accessDate": "2025-12-18",
+      "notes": "With Cutout augmentation."
+    },
+    {
+      "model": "paddleocr-vl",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 92.86,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16",
+      "notes": "End-to-end document parsing. Score = ((1-TextEditDist)*100 + TableTEDS + FormulaCDM) / 3"
+    },
+    {
+      "model": "paddleocr-vl-0.9b",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 92.56,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "mineru-2.5",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 90.67,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "qwen3-vl-235b",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 89.15,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "monkeyocr-pro-3b",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 88.85,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-25-pro",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 88.03,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "qwen25-vl",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 87.02,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "ocrverse-4b",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 88.56,
+      "source": "github-leaderboard",
+      "sourceUrl": "https://github.com/opendatalab/OmniDocBench",
+      "accessDate": "2025-12-18",
+      "notes": "4B parameter model. Text Edit: 0.058, Formula CDM: 86.91, Table TEDS: 84.55"
+    },
+    {
+      "model": "dots-ocr-3b",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 88.41,
+      "source": "github-leaderboard",
+      "sourceUrl": "https://github.com/opendatalab/OmniDocBench",
+      "accessDate": "2025-12-18",
+      "notes": "3B parameter model. Text Edit: 0.048, Formula CDM: 83.22, Table TEDS: 86.78"
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 79.75,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3-benchmark",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "verifiedBy": "CodeSOTA",
+      "verifiedDate": "2025-12-19",
+      "notes": "INDEPENDENTLY VERIFIED by CodeSOTA. Full benchmark run on 1355 images. Text Edit: 0.099 (90.1%), Formula Edit: 0.218 (78.2%), Table TEDS: 70.9%. Reading Order: 91.6%."
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "omnidocbench",
+      "metric": "text-edit-distance",
+      "value": 0.099,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3-benchmark",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "Text block recognition. 90.1% accuracy. Best on academic papers (97.9%), exam papers (92.8%)."
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "omnidocbench",
+      "metric": "table-teds",
+      "value": 70.88,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3-benchmark",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "Table structure recognition. TEDS Structure: 75.3%. Best on exam papers (88.0%)."
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "omnidocbench",
+      "metric": "formula-edit-distance",
+      "value": 0.218,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3-benchmark",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "Display formula recognition. 78.2% accuracy."
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "omnidocbench",
+      "metric": "reading-order",
+      "value": 91.63,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3-benchmark",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "Reading order accuracy. 8.4% edit distance error."
+    },
+    {
+      "model": "clearocr-teamquest",
+      "dataset": "omnidocbench",
+      "metric": "composite",
+      "value": 31.7,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/clearocr",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "verifiedBy": "CodeSOTA",
+      "verifiedDate": "2025-12-19",
+      "notes": "INDEPENDENTLY VERIFIED by CodeSOTA. Traditional OCR - text only, no table/formula recognition. Text Edit: 0.154 (84.6%), Table TEDS: 0.8%, Formula Edit: 0.902."
+    },
+    {
+      "model": "clearocr-teamquest",
+      "dataset": "omnidocbench",
+      "metric": "text-edit-distance",
+      "value": 0.154,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/clearocr",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "Text block recognition. 84.6% accuracy. Best on research reports (95.4%), academic papers (95.0%)."
+    },
+    {
+      "model": "clearocr-teamquest",
+      "dataset": "omnidocbench",
+      "metric": "table-teds",
+      "value": 0.8,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/clearocr",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "No structured table recognition. Outputs tables as plain text."
+    },
+    {
+      "model": "clearocr-teamquest",
+      "dataset": "omnidocbench",
+      "metric": "formula-edit-distance",
+      "value": 0.902,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/clearocr",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "No LaTeX formula recognition. Outputs formulas as plain text."
+    },
+    {
+      "model": "clearocr-teamquest",
+      "dataset": "omnidocbench",
+      "metric": "reading-order",
+      "value": 86.04,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/clearocr",
+      "accessDate": "2025-12-19",
+      "verified": true,
+      "notes": "Reading order accuracy. 14.0% edit distance error."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "omnidocbench",
+      "metric": "ocr-edit-distance",
+      "value": 0.02,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16",
+      "notes": "OCR Edit Distance (lower is better). Best on English text extraction."
+    },
+    {
+      "model": "paddleocr-vl",
+      "dataset": "omnidocbench",
+      "metric": "table-teds",
+      "value": 93.52,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16",
+      "notes": "Table structure recognition score (TEDS)"
+    },
+    {
+      "model": "mineru-2.5",
+      "dataset": "omnidocbench",
+      "metric": "layout-map",
+      "value": 97.5,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/shanghai-ai-laboratory/omnidocbench",
+      "accessDate": "2025-12-16",
+      "notes": "Layout detection mAP (highest)"
+    },
+    {
+      "model": "seed-1.6-vision",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 62.2,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/ocrbench-v2",
+      "accessDate": "2025-12-16",
+      "notes": "English, Private split. #1 on OCRBench v2"
+    },
+    {
+      "model": "qwen3-omni-30b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 61.3,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/ocrbench-v2",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "nemotron-nano-v2-vl",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 61.2,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/ocrbench-v2",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-25-pro",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 59.3,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/ocrbench-v2",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 55.5,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/ocrbench-v2",
+      "accessDate": "2025-12-16",
+      "notes": "Listed as GPT5-2025-08-07 on leaderboard"
+    },
+    {
+      "model": "gemini-25-pro",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-zh-private",
+      "value": 62.2,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/ocrbench-v2",
+      "accessDate": "2025-12-16",
+      "notes": "Chinese, Private split. #1 on Chinese"
+    },
+    {
+      "model": "mistral-ocr-2512",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 25.2,
+      "source": "codesota-verified",
+      "sourceUrl": "https://codesota.com/ocr/mistral-ocr-3",
+      "accessDate": "2025-12-21",
+      "verified": true,
+      "verifiedBy": "CodeSOTA",
+      "notes": "Verified via CodeSOTA benchmark. 7,400 English samples. Mistral OCR is a pure OCR model (text extraction only) - not designed for VQA, chart parsing, or structured extraction tasks. Strong on full-page OCR (79.1%) and document parsing (55.2%)."
+    },
+    {
+      "model": "llama-3.1-nemotron-nano-vl-8b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 56.4,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "ovis2.5-8b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 54.1,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "gemini-1.5-pro",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 51.6,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "sail-vl2-8b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 49.3,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "minicpm-v-4.5-8b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 48.4,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "gpt-4o-2024",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 47.6,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21",
+      "notes": "GPT-4o baseline (not GPT5-2025-08-07)"
+    },
+    {
+      "model": "claude-3.5-sonnet",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 47.5,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "internvl3.5-14b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 47.1,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "step-1v",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 46.8,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "grok4",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 45.0,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "gpt-4o-mini",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 44.1,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "claude-sonnet-4",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 42.4,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21",
+      "notes": "Claude-sonnet-4-20250514"
+    },
+    {
+      "model": "qwen2.5-vl-7b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 41.8,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "deepseek-vl2-small",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 41.0,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "pixtral-12b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 38.4,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "phi-4-multimodal",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 38.1,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "glm-4v-9b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 37.1,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "molmo-7b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 33.9,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "llava-ov-7b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 33.7,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "idefics3-8b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 26.0,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "docowl2",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-en-private",
+      "value": 23.4,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "minicpm-v-4.5-8b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-zh-private",
+      "value": 58.8,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21",
+      "notes": "Chinese, Private split. #4 overall"
+    },
+    {
+      "model": "sail-vl2-8b",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-zh-private",
+      "value": 57.6,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "claude-3.5-sonnet",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-zh-private",
+      "value": 48.4,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "gpt-4o-2024",
+      "dataset": "ocrbench-v2",
+      "metric": "overall-zh-private",
+      "value": 45.7,
+      "source": "ocrbench-v2-leaderboard",
+      "sourceUrl": "https://99franklin.github.io/ocrbench_v2/",
+      "accessDate": "2025-12-21"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 83.1,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16",
+      "notes": "7,010 unit tests across 1,402 PDF documents. #1 overall on olmOCR-Bench."
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "tables",
+      "value": 88.0,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Table recognition category. Near-best (dots.ocr: 88.3)"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "old-scans-math",
+      "value": 80.3,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Mathematical notation in old scans. #1, leads by 5.4 points"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "long-tiny-text",
+      "value": 92.3,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Long documents with tiny text. #1 in category"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "base",
+      "value": 99.9,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Base clean document parsing. Near-perfect"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "headers-footers",
+      "value": 90.8,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Header/footer extraction"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "multi-column",
+      "value": 81.2,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Multi-column document parsing"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "arxiv",
+      "value": 82.2,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "ArXiv paper parsing. Marker leads (83.8)"
+    },
+    {
+      "model": "chandra-ocr-0.1.0",
+      "dataset": "olmocr-bench",
+      "metric": "old-scans",
+      "value": 50.4,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Old scan recognition. #1 (GPT-4o: 40.7)"
+    },
+    {
+      "model": "deepseek-ocr",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 75.4,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "Chandra outperforms by 7.7 points"
+    },
+    {
+      "model": "dots-ocr-3b",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 79.1,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "marker-1.10.0",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 76.5,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o-anchored",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 69.9,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "GPT-4o with anchored prompting"
+    },
+    {
+      "model": "gemini-flash-2",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 63.8,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "dots-ocr-3b",
+      "dataset": "olmocr-bench",
+      "metric": "tables",
+      "value": 88.3,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "#1 on table recognition"
+    },
+    {
+      "model": "olmocr-v0.3.0",
+      "dataset": "olmocr-bench",
+      "metric": "old-scans-math",
+      "value": 79.9,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "#2 on math in old scans"
+    },
+    {
+      "model": "olmocr-v0.3.0",
+      "dataset": "olmocr-bench",
+      "metric": "headers-footers",
+      "value": 95.1,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "#1 on headers/footers extraction"
+    },
+    {
+      "model": "marker-1.10.0",
+      "dataset": "olmocr-bench",
+      "metric": "arxiv",
+      "value": 83.8,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "#1 on ArXiv paper parsing"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "olmocr-bench",
+      "metric": "old-scans",
+      "value": 40.7,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/datalab-to/chandra",
+      "accessDate": "2025-12-16",
+      "notes": "#2 on old scans. Chandra leads by 9.7 points"
+    },
+    {
+      "model": "infinity-parser-7b",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 82.5,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "olmocr-v0.4.0",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 82.4,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "paddleocr-vl",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 80.0,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "marker-1.10.1",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 76.1,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "deepseek-ocr",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 75.7,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "mineru-2.5",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 75.2,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 78.0,
+      "source": "mistral-announcement",
+      "sourceUrl": "https://mistral.ai/news/mistral-ocr-3",
+      "accessDate": "2025-12-19",
+      "notes": "Estimated based on 74% win rate vs OCR 2"
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "internal-mistral",
+      "metric": "overall-accuracy",
+      "value": 94.9,
+      "source": "mistral-announcement",
+      "sourceUrl": "https://mistral.ai/news/mistral-ocr-3",
+      "accessDate": "2025-12-19",
+      "notes": "Self-reported on internal benchmark"
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "ocr-cer-benchmark",
+      "metric": "cer",
+      "value": 3.7,
+      "source": "sparkco-benchmark",
+      "sourceUrl": "https://sparkco.ai/blog/deepseek-ocr-vs-mistral-ocr-benchmark-analysis-2025",
+      "accessDate": "2025-12-19"
+    },
+    {
+      "model": "mistral-ocr-3",
+      "dataset": "ocr-wer-benchmark",
+      "metric": "wer",
+      "value": 7.1,
+      "source": "sparkco-benchmark",
+      "sourceUrl": "https://sparkco.ai/blog/deepseek-ocr-vs-mistral-ocr-benchmark-analysis-2025",
+      "accessDate": "2025-12-19"
+    },
+    {
+      "model": "mistral-ocr-api",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 72.0,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "nanonets-ocr2-3b",
+      "dataset": "olmocr-bench",
+      "metric": "pass-rate",
+      "value": 69.5,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/allen-institute-for-ai/olmocr-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "churro-3b",
+      "dataset": "churro-ds",
+      "metric": "handwritten-levenshtein",
+      "value": 70.1,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16",
+      "notes": "Historical handwritten documents, 46 languages, 99K pages"
+    },
+    {
+      "model": "churro-3b",
+      "dataset": "churro-ds",
+      "metric": "printed-levenshtein",
+      "value": 82.3,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16",
+      "notes": "Historical printed documents"
+    },
+    {
+      "model": "gemini-25-pro",
+      "dataset": "churro-ds",
+      "metric": "handwritten-levenshtein",
+      "value": 63.6,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-25-pro",
+      "dataset": "churro-ds",
+      "metric": "printed-levenshtein",
+      "value": 80.9,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-25-flash",
+      "dataset": "churro-ds",
+      "metric": "handwritten-levenshtein",
+      "value": 58.7,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "qwen25-vl-72b",
+      "dataset": "churro-ds",
+      "metric": "handwritten-levenshtein",
+      "value": 54.5,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "claude-sonnet-4",
+      "dataset": "churro-ds",
+      "metric": "handwritten-levenshtein",
+      "value": 37.1,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "churro-ds",
+      "metric": "handwritten-levenshtein",
+      "value": 34.2,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/stanford-university/churro-ds",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "cc-ocr",
+      "metric": "multi-scene-f1",
+      "value": 83.25,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16",
+      "notes": "Multi-Scene Text Reading - Overall F1 score"
+    },
+    {
+      "model": "qwen2-vl-72b",
+      "dataset": "cc-ocr",
+      "metric": "multi-scene-f1",
+      "value": 77.95,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "internvl2-76b",
+      "dataset": "cc-ocr",
+      "metric": "multi-scene-f1",
+      "value": 76.92,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "cc-ocr",
+      "metric": "multi-scene-f1",
+      "value": 76.4,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "cc-ocr",
+      "metric": "multi-scene-f1",
+      "value": 72.87,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "qwen2-vl-72b",
+      "dataset": "cc-ocr",
+      "metric": "kie-f1",
+      "value": 71.76,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16",
+      "notes": "Key Information Extraction - Overall F1 score"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "cc-ocr",
+      "metric": "kie-f1",
+      "value": 67.28,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "cc-ocr",
+      "metric": "kie-f1",
+      "value": 64.58,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "cc-ocr",
+      "metric": "kie-f1",
+      "value": 63.45,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "cc-ocr",
+      "metric": "multilingual-f1",
+      "value": 78.97,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16",
+      "notes": "Multilingual Text Reading - 10 languages"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "cc-ocr",
+      "metric": "multilingual-f1",
+      "value": 73.44,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "cc-ocr",
+      "metric": "document-parsing",
+      "value": 62.37,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/south-china-university-of-technology/cc-ocr",
+      "accessDate": "2025-12-16",
+      "notes": "Document Parsing - Average Score"
+    },
+    {
+      "model": "gemini-25-pro",
+      "dataset": "mme-videoocr",
+      "metric": "total-accuracy",
+      "value": 73.7,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/ntu/mme-videoocr",
+      "accessDate": "2025-12-16",
+      "notes": "1,464 videos, 2,000 QA pairs, 25 tasks"
+    },
+    {
+      "model": "qwen25-vl-72b",
+      "dataset": "mme-videoocr",
+      "metric": "total-accuracy",
+      "value": 69.0,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/ntu/mme-videoocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "internvl3-78b",
+      "dataset": "mme-videoocr",
+      "metric": "total-accuracy",
+      "value": 67.2,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/ntu/mme-videoocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "mme-videoocr",
+      "metric": "total-accuracy",
+      "value": 66.4,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/ntu/mme-videoocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "mme-videoocr",
+      "metric": "total-accuracy",
+      "value": 64.9,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/ntu/mme-videoocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "qwen25-vl-32b",
+      "dataset": "mme-videoocr",
+      "metric": "total-accuracy",
+      "value": 61.0,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/ntu/mme-videoocr",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gemini-20-flash",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.13,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16",
+      "notes": "Arabic OCR - Character Error Rate (lower is better). 8,809 samples, 9 domains"
+    },
+    {
+      "model": "ain-7b",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.20,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.31,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "gpt-4o-mini",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.43,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "azure-ocr",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.52,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "tesseract",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.54,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "easyocr",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.58,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "paddleocr",
+      "dataset": "kitab-bench",
+      "metric": "cer",
+      "value": 0.79,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/mbzuai/kitab-bench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "claude-sonnet-4",
+      "dataset": "thaiocrbench",
+      "metric": "ted-score",
+      "value": 0.84,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/scb-10x/thaiocrbench",
+      "accessDate": "2025-12-16",
+      "notes": "Thai OCR - Structural Understanding TED Score. 2,808 samples, 13 tasks"
+    },
+    {
+      "model": "gemini-25-pro",
+      "dataset": "thaiocrbench",
+      "metric": "ted-score",
+      "value": 0.77,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/scb-10x/thaiocrbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "qwen25-vl-32b",
+      "dataset": "thaiocrbench",
+      "metric": "ted-score",
+      "value": 0.765,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/scb-10x/thaiocrbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "internvl3-14b",
+      "dataset": "thaiocrbench",
+      "metric": "ted-score",
+      "value": 0.76,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/scb-10x/thaiocrbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "qwen25-vl-72b",
+      "dataset": "thaiocrbench",
+      "metric": "ted-score",
+      "value": 0.72,
+      "source": "alphaxiv-leaderboard",
+      "sourceUrl": "https://www.alphaxiv.org/benchmarks/scb-10x/thaiocrbench",
+      "accessDate": "2025-12-16"
+    },
+    {
+      "model": "o1-preview",
+      "dataset": "gsm8k",
+      "metric": "accuracy",
+      "value": 97.8,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessDate": "2025-12-17",
+      "notes": "Grade school math word problems. o1-preview achieves near-human performance."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "gsm8k",
+      "metric": "accuracy",
+      "value": 92.0,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "gsm8k",
+      "metric": "accuracy",
+      "value": 96.4,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "gsm8k",
+      "metric": "accuracy",
+      "value": 91.7,
+      "source": "google-blog",
+      "sourceUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "gsm8k",
+      "metric": "accuracy",
+      "value": 93.0,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "o1-preview",
+      "dataset": "math",
+      "metric": "accuracy",
+      "value": 94.8,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessDate": "2025-12-17",
+      "notes": "Competition mathematics. Massive improvement over GPT-4."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "math",
+      "metric": "accuracy",
+      "value": 76.6,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "math",
+      "metric": "accuracy",
+      "value": 71.1,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "math",
+      "metric": "accuracy",
+      "value": 67.7,
+      "source": "google-blog",
+      "sourceUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "deepseek-v3",
+      "dataset": "math",
+      "metric": "accuracy",
+      "value": 90.2,
+      "source": "deepseek-blog",
+      "sourceUrl": "https://www.deepseek.com/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "o1-preview",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 83.3,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessDate": "2025-12-17",
+      "notes": "American Invitational Mathematics Examination. Elite competition math."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 13.4,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessDate": "2025-12-17",
+      "notes": "Significant gap between o1 and GPT-4o on competition math."
+    },
+    {
+      "model": "claude-35-opus",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 16.0,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-family",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "hellaswag",
+      "metric": "accuracy",
+      "value": 95.3,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17",
+      "notes": "Commonsense NLI. Models now exceed human performance (95.6%)."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "hellaswag",
+      "metric": "accuracy",
+      "value": 89.0,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "hellaswag",
+      "metric": "accuracy",
+      "value": 88.0,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "hellaswag",
+      "metric": "accuracy",
+      "value": 92.5,
+      "source": "google-blog",
+      "sourceUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "winogrande",
+      "metric": "accuracy",
+      "value": 87.5,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17",
+      "notes": "Pronoun resolution requiring commonsense reasoning."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "winogrande",
+      "metric": "accuracy",
+      "value": 85.4,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "winogrande",
+      "metric": "accuracy",
+      "value": 85.3,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "arc-challenge",
+      "metric": "accuracy",
+      "value": 96.4,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17",
+      "notes": "Grade-school science questions (challenge set)."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "arc-challenge",
+      "metric": "accuracy",
+      "value": 96.7,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "arc-challenge",
+      "metric": "accuracy",
+      "value": 93.0,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "arc-challenge",
+      "metric": "accuracy",
+      "value": 94.8,
+      "source": "google-blog",
+      "sourceUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "mmlu",
+      "metric": "accuracy",
+      "value": 88.7,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17",
+      "notes": "Massive Multitask Language Understanding. 57 subjects."
+    },
+    {
+      "model": "o1-preview",
+      "dataset": "mmlu",
+      "metric": "accuracy",
+      "value": 92.3,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "mmlu",
+      "metric": "accuracy",
+      "value": 88.7,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "mmlu",
+      "metric": "accuracy",
+      "value": 85.9,
+      "source": "google-blog",
+      "sourceUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "mmlu",
+      "metric": "accuracy",
+      "value": 82.0,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "deepseek-v3",
+      "dataset": "mmlu",
+      "metric": "accuracy",
+      "value": 88.5,
+      "source": "deepseek-blog",
+      "sourceUrl": "https://www.deepseek.com/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "o1-preview",
+      "dataset": "gpqa",
+      "metric": "accuracy",
+      "value": 78.0,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessDate": "2025-12-17",
+      "notes": "Graduate-level Google-Proof Q&A. PhD-level science questions."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "gpqa",
+      "metric": "accuracy",
+      "value": 53.6,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "gpqa",
+      "metric": "accuracy",
+      "value": 59.4,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gemini-15-pro",
+      "dataset": "gpqa",
+      "metric": "accuracy",
+      "value": 46.2,
+      "source": "google-blog",
+      "sourceUrl": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "commonsenseqa",
+      "metric": "accuracy",
+      "value": 85.4,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17",
+      "notes": "Commonsense reasoning QA from ConceptNet."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "commonsenseqa",
+      "metric": "accuracy",
+      "value": 83.2,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "commonsenseqa",
+      "metric": "accuracy",
+      "value": 80.9,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "hotpotqa",
+      "metric": "f1",
+      "value": 71.3,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17",
+      "notes": "Multi-hop question answering requiring reasoning over Wikipedia."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "hotpotqa",
+      "metric": "f1",
+      "value": 68.5,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "strategyqa",
+      "metric": "accuracy",
+      "value": 82.1,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17",
+      "notes": "Strategy questions requiring implicit multi-step reasoning."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "strategyqa",
+      "metric": "accuracy",
+      "value": 79.8,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "logiqa",
+      "metric": "accuracy",
+      "value": 56.3,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17",
+      "notes": "Logical reasoning from Chinese Civil Service exams."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "logiqa",
+      "metric": "accuracy",
+      "value": 53.8,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "reclor",
+      "metric": "accuracy",
+      "value": 72.4,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17",
+      "notes": "Reading comprehension requiring logical reasoning."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "reclor",
+      "metric": "accuracy",
+      "value": 68.9,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "svamp",
+      "metric": "accuracy",
+      "value": 93.7,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17",
+      "notes": "Simple Variations on Arithmetic Math word Problems."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "svamp",
+      "metric": "accuracy",
+      "value": 91.2,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "svamp",
+      "metric": "accuracy",
+      "value": 89.5,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "mawps",
+      "metric": "accuracy",
+      "value": 97.2,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17",
+      "notes": "Math Word Problem Suite - elementary arithmetic."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "mawps",
+      "metric": "accuracy",
+      "value": 95.8,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2401.13601",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "mawps",
+      "metric": "accuracy",
+      "value": 94.1,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "plymouth-dl-model",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 98.0,
+      "source": "research-paper",
+      "sourceUrl": "https://www.plymouth.ac.uk/news/pr-opinion/using-ai-to-diagnose-autism",
+      "accessDate": "2025-12-18",
+      "notes": "98% on 884 participant subset. Highlights visual cortex regions."
+    },
+    {
+      "model": "deepasd",
+      "dataset": "abide-ii",
+      "metric": "auc",
+      "value": 93.0,
+      "source": "research-paper",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9932324/",
+      "accessDate": "2025-12-18",
+      "notes": "Adversary-regularized GNN combining fMRI and SNPs data. State-of-the-art on ABIDE-II."
+    },
+    {
+      "model": "mcbert",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 93.4,
+      "source": "research-paper",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0301051124002369",
+      "accessDate": "2025-12-18",
+      "notes": "Multi-modal CNN-BERT with leave-one-site-out cross-validation. Combines brain MRI and meta-features."
+    },
+    {
+      "model": "ae-fcn",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 85.0,
+      "source": "research-paper",
+      "sourceUrl": "https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1.full",
+      "accessDate": "2025-12-18",
+      "notes": "Autoencoder + FCN combining fMRI and sMRI data (Rakic et al., 2020)."
+    },
+    {
+      "model": "braingт",
+      "dataset": "abide-i",
+      "metric": "auc",
+      "value": 78.7,
+      "source": "research-paper",
+      "sourceUrl": "https://www.medrxiv.org/content/10.1101/2024.08.30.24312819v1.full",
+      "accessDate": "2025-12-18",
+      "notes": "Graph Transformer for brain disorder diagnosis. Significantly outperforms BrainNetTF (73.2%)."
+    },
+    {
+      "model": "asd-swnet",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 76.52,
+      "source": "research-paper",
+      "sourceUrl": "https://www.nature.com/articles/s41598-024-64299-8",
+      "accessDate": "2025-12-18",
+      "notes": "Shared-weight feature extraction network. Precision: 76.15%, Recall: 80.65%."
+    },
+    {
+      "model": "asd-swnet",
+      "dataset": "abide-i",
+      "metric": "auc",
+      "value": 81.0,
+      "source": "research-paper",
+      "sourceUrl": "https://www.nature.com/articles/s41598-024-64299-8",
+      "accessDate": "2025-12-18",
+      "notes": "AUC-ROC score for autism vs typical control classification."
+    },
+    {
+      "model": "al-negat",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 74.7,
+      "source": "research-paper",
+      "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/35286265/",
+      "accessDate": "2025-12-18",
+      "notes": "Adversarial learning-based node-edge graph attention network. 1,007 subjects across 17 sites."
+    },
+    {
+      "model": "braingnn",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 73.3,
+      "source": "research-paper",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9916535/",
+      "accessDate": "2025-12-18",
+      "notes": "ROI-aware graph convolutional network. Interpretable biomarker discovery. 1,035 subjects."
+    },
+    {
+      "model": "gcn",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 72.2,
+      "source": "research-paper",
+      "sourceUrl": "https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1.full",
+      "accessDate": "2025-12-18",
+      "notes": "Graph Convolutional Network combining fMRI and sMRI with max voting."
+    },
+    {
+      "model": "gcn",
+      "dataset": "abide-i",
+      "metric": "auc",
+      "value": 78.0,
+      "source": "research-paper",
+      "sourceUrl": "https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1.full",
+      "accessDate": "2025-12-18",
+      "notes": "Best performing model in comprehensive comparison study (2024)."
+    },
+    {
+      "model": "multi-task-transformer",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 72.0,
+      "source": "research-paper",
+      "sourceUrl": "https://bmcneurosci.biomedcentral.com/articles/10.1186/s12868-024-00870-3",
+      "accessDate": "2025-12-18",
+      "notes": "Multi-task transformer neural network on UM dataset. Attention mechanism for feature extraction."
+    },
+    {
+      "model": "svm-connectivity",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 70.1,
+      "source": "research-paper",
+      "sourceUrl": "https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1.full",
+      "accessDate": "2025-12-18",
+      "notes": "Support Vector Machine with functional connectivity features. Classic baseline comparison."
+    },
+    {
+      "model": "svm-connectivity",
+      "dataset": "abide-i",
+      "metric": "auc",
+      "value": 77.0,
+      "source": "research-paper",
+      "sourceUrl": "https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1.full",
+      "accessDate": "2025-12-18",
+      "notes": "Traditional ML baseline with functional connectivity matrices."
+    },
+    {
+      "model": "deep-learning-heinsfeld",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 70.0,
+      "source": "research-paper",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5635344/",
+      "accessDate": "2025-12-18",
+      "notes": "Deep learning approach by Heinsfeld et al. (2017). Anterior-posterior brain connectivity disruption."
+    },
+    {
+      "model": "mvs-gcn",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 69.38,
+      "source": "research-paper",
+      "sourceUrl": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1485286/full",
+      "accessDate": "2025-12-18",
+      "notes": "Multi-view Site Graph Convolutional Network handling multi-site variability."
+    },
+    {
+      "model": "mvs-gcn",
+      "dataset": "abide-i",
+      "metric": "auc",
+      "value": 69.01,
+      "source": "research-paper",
+      "sourceUrl": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1485286/full",
+      "accessDate": "2025-12-18",
+      "notes": "Multi-view approach addressing site heterogeneity."
+    },
+    {
+      "model": "phgcl-ddgformer",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 70.9,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/html/2504.03740",
+      "accessDate": "2025-12-18",
+      "notes": "Graph contrastive learning with graph transformer. 74.8% sensitivity."
+    },
+    {
+      "model": "random-forest",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 63.0,
+      "source": "research-paper",
+      "sourceUrl": "https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1.full",
+      "accessDate": "2025-12-18",
+      "notes": "Random Forest baseline. Sensitivity: 69%, Specificity: 58%."
+    },
+    {
+      "model": "maacnn",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 75.12,
+      "source": "research-paper",
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295621",
+      "accessDate": "2025-12-18",
+      "notes": "Multi-attention CNN. AUC: 0.79 on ABIDE-I."
+    },
+    {
+      "model": "maacnn",
+      "dataset": "abide-ii",
+      "metric": "accuracy",
+      "value": 72.88,
+      "source": "research-paper",
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295621",
+      "accessDate": "2025-12-18",
+      "notes": "Multi-attention CNN on ABIDE-II. AUC: 0.76."
+    },
+    {
+      "model": "multi-atlas-dnn",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 78.07,
+      "source": "research-paper",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1568494621002982",
+      "accessDate": "2025-12-18",
+      "notes": "Multi-atlas deep neural network with hinge loss. 79.13% on augmented data."
+    },
+    {
+      "model": "abraham-connectomes",
+      "dataset": "abide-i",
+      "metric": "accuracy",
+      "value": 67.0,
+      "source": "research-paper",
+      "sourceUrl": "https://www.sciencedirect.com/science/article/pii/S2213158217302073",
+      "accessDate": "2025-12-18",
+      "notes": "Participant-specific functional connectivity matrices (Abraham et al., 2017)."
+    },
+    {
+      "model": "o1-preview",
+      "dataset": "humaneval",
+      "metric": "pass@1",
+      "value": 92.4,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/",
+      "accessDate": "2025-12-17",
+      "notes": "Classic Python code generation benchmark."
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "humaneval",
+      "metric": "pass@1",
+      "value": 92.0,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "humaneval",
+      "metric": "pass@1",
+      "value": 90.2,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "deepseek-v3",
+      "dataset": "humaneval",
+      "metric": "pass@1",
+      "value": 82.6,
+      "source": "deepseek-blog",
+      "sourceUrl": "https://www.deepseek.com/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "llama-3-70b",
+      "dataset": "humaneval",
+      "metric": "pass@1",
+      "value": 81.7,
+      "source": "meta-blog",
+      "sourceUrl": "https://ai.meta.com/blog/meta-llama-3/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "swe-bench-verified",
+      "metric": "resolve-rate",
+      "value": 49.0,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17",
+      "notes": "Real-world software engineering issues (verified subset)."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "swe-bench-verified",
+      "metric": "resolve-rate",
+      "value": 41.2,
+      "source": "swe-bench-leaderboard",
+      "sourceUrl": "https://www.swebench.com/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "deepseek-v25",
+      "dataset": "swe-bench-verified",
+      "metric": "resolve-rate",
+      "value": 37.0,
+      "source": "deepseek-blog",
+      "sourceUrl": "https://www.deepseek.com/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "mbpp",
+      "metric": "pass@1",
+      "value": 87.8,
+      "source": "openai-blog",
+      "sourceUrl": "https://openai.com/index/gpt-4o-system-card/",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "claude-35-sonnet",
+      "dataset": "mbpp",
+      "metric": "pass@1",
+      "value": 89.2,
+      "source": "anthropic-blog",
+      "sourceUrl": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "accessDate": "2025-12-17"
+    },
+    {
+      "model": "internimage-h",
+      "dataset": "coco",
+      "metric": "mAP",
+      "value": 65.4,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2211.05778",
+      "accessDate": "2025-12-18",
+      "notes": "InternImage: Large-scale vision foundation model with deformable convolution."
+    },
+    {
+      "model": "co-detr-swin-l",
+      "dataset": "coco",
+      "metric": "mAP",
+      "value": 66.0,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2211.12860",
+      "accessDate": "2025-12-18",
+      "notes": "Co-DETR with Swin-L backbone. Current SOTA range for object detection."
+    },
+    {
+      "model": "dino-swin-l",
+      "dataset": "coco",
+      "metric": "mAP",
+      "value": 63.3,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2203.03605",
+      "accessDate": "2025-12-18",
+      "notes": "DINO: DETR with Improved DeNoising Anchor Boxes."
+    },
+    {
+      "model": "yolov10-x",
+      "dataset": "coco",
+      "metric": "mAP",
+      "value": 57.4,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/THU-MIG/yolov10",
+      "accessDate": "2025-12-18",
+      "notes": "Real-time object detection. High efficiency."
+    },
+    {
+      "model": "efficientdet-d7-x",
+      "dataset": "coco",
+      "metric": "mAP",
+      "value": 55.1,
+      "source": "google-research",
+      "sourceUrl": "https://arxiv.org/abs/1911.09070",
+      "accessDate": "2025-12-18",
+      "notes": "EfficientDet: Scalable and Efficient Object Detection."
+    },
+    {
+      "model": "internimage-h",
+      "dataset": "ade20k",
+      "metric": "mIoU",
+      "value": 62.9,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2211.05778",
+      "accessDate": "2025-12-18",
+      "notes": "Semantic segmentation SOTA."
+    },
+    {
+      "model": "mask2former-swin-l",
+      "dataset": "ade20k",
+      "metric": "mIoU",
+      "value": 57.3,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2112.01527",
+      "accessDate": "2025-12-18",
+      "notes": "Masked-attention Mask Transformer."
+    },
+    {
+      "model": "agent57",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 4731.3,
+      "source": "deepmind-research",
+      "sourceUrl": "https://arxiv.org/abs/2003.13350",
+      "accessDate": "2025-12-18",
+      "notes": "Median HNS across 57 games. First to beat human baseline on ALL games."
+    },
+    {
+      "model": "go-explore",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 40000.0,
+      "source": "nature-paper",
+      "sourceUrl": "https://www.nature.com/articles/s41586-020-03157-9",
+      "accessDate": "2025-12-18",
+      "notes": "Exploration-focused agent. Score is Mean HNS (skewed by Montezuma's Revenge), not Median."
+    },
+    {
+      "model": "muzero",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 731.0,
+      "source": "nature-paper",
+      "sourceUrl": "https://www.nature.com/articles/s41586-020-03051-4",
+      "accessDate": "2025-12-18",
+      "notes": "Model-based agent planning with learned model."
+    },
+    {
+      "model": "dreamerv3",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 840.0,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2301.04104",
+      "accessDate": "2025-12-18",
+      "notes": "Mastered Atari with fixed hyperparameters using world models."
+    },
+    {
+      "model": "rainbow-dqn",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 231.0,
+      "source": "aaai-paper",
+      "sourceUrl": "https://arxiv.org/abs/1710.02298",
+      "accessDate": "2025-12-18",
+      "notes": "Median HNS. Combines 7 improvements to DQN."
+    },
+    {
+      "model": "dqn",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 79.0,
+      "source": "nature-paper",
+      "sourceUrl": "https://www.nature.com/articles/nature14236",
+      "accessDate": "2025-12-18",
+      "notes": "Historical baseline (2015). Median HNS."
+    },
+    {
+      "model": "human-gamer",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 100.0,
+      "source": "baseline",
+      "sourceUrl": "https://arxiv.org/abs/1207.4708",
+      "accessDate": "2025-12-18",
+      "notes": "Professional human tester baseline."
+    },
+    {
+      "model": "bbos-1",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 1100.0,
+      "source": "research",
+      "sourceUrl": "",
+      "accessDate": "2025-12-18",
+      "notes": "Model-based optimization."
+    },
+    {
+      "model": "gdi-h3",
+      "dataset": "atari-2600",
+      "metric": "human-normalized-score",
+      "value": 950.0,
+      "source": "research",
+      "sourceUrl": "",
+      "accessDate": "2025-12-18",
+      "notes": "High sample efficiency."
+    },
+    {
+      "model": "chexpert-auc-maximizer",
+      "dataset": "chexpert",
+      "metric": "auroc",
+      "value": 93.0,
+      "source": "stanford-leaderboard",
+      "sourceUrl": "https://stanfordmlgroup.github.io/competitions/chexpert/",
+      "accessDate": "2025-12-19",
+      "notes": "Mean AUC across 5 competition pathologies. Competition-winning ensemble."
+    },
+    {
+      "model": "chexzero",
+      "dataset": "chexpert",
+      "metric": "auroc",
+      "value": 88.6,
+      "source": "research-paper",
+      "sourceUrl": "https://www.nature.com/articles/s41551-022-00942-8",
+      "accessDate": "2025-12-19",
+      "notes": "Zero-shot performance without task-specific training. Expert-level on multiple pathologies."
+    },
+    {
+      "model": "torchxrayvision",
+      "dataset": "chexpert",
+      "metric": "auroc",
+      "value": 87.4,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/mlmed/torchxrayvision",
+      "accessDate": "2025-12-19",
+      "notes": "Pre-trained on multiple datasets. Strong transfer learning baseline."
+    },
+    {
+      "model": "densenet-121-cxr",
+      "dataset": "chexpert",
+      "metric": "auroc",
+      "value": 86.5,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/1901.07031",
+      "accessDate": "2025-12-19",
+      "notes": "Baseline DenseNet-121. Trained on CheXpert training set."
+    },
+    {
+      "model": "gloria",
+      "dataset": "chexpert",
+      "metric": "auroc",
+      "value": 88.2,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2110.02163",
+      "accessDate": "2025-12-19",
+      "notes": "Global-Local Representations. Zero-shot evaluation."
+    },
+    {
+      "model": "medclip",
+      "dataset": "chexpert",
+      "metric": "auroc",
+      "value": 87.8,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2210.10163",
+      "accessDate": "2025-12-19",
+      "notes": "Decoupled contrastive learning. Zero-shot transfer."
+    },
+    {
+      "model": "biovil",
+      "dataset": "chexpert",
+      "metric": "auroc",
+      "value": 89.1,
+      "source": "microsoft-research",
+      "sourceUrl": "https://arxiv.org/abs/2204.09817",
+      "accessDate": "2025-12-19",
+      "notes": "Microsoft's biomedical vision-language model."
+    },
+    {
+      "model": "chexnet",
+      "dataset": "nih-chestxray14",
+      "metric": "auroc",
+      "value": 84.1,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/1711.05225",
+      "accessDate": "2025-12-19",
+      "notes": "Original CheXNet on ChestX-ray14. Exceeded radiologist performance on pneumonia (0.768 vs 0.633)."
+    },
+    {
+      "model": "torchxrayvision",
+      "dataset": "nih-chestxray14",
+      "metric": "auroc",
+      "value": 85.8,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/mlmed/torchxrayvision",
+      "accessDate": "2025-12-19",
+      "notes": "Multi-dataset pre-training improves over single-dataset."
+    },
+    {
+      "model": "densenet-121-cxr",
+      "dataset": "nih-chestxray14",
+      "metric": "auroc",
+      "value": 82.6,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/1705.02315",
+      "accessDate": "2025-12-19",
+      "notes": "Original NIH baseline model."
+    },
+    {
+      "model": "resnet-50-cxr",
+      "dataset": "nih-chestxray14",
+      "metric": "auroc",
+      "value": 80.4,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/1705.02315",
+      "accessDate": "2025-12-19",
+      "notes": "ResNet-50 baseline."
+    },
+    {
+      "model": "chexzero",
+      "dataset": "mimic-cxr",
+      "metric": "auroc",
+      "value": 89.2,
+      "source": "research-paper",
+      "sourceUrl": "https://www.nature.com/articles/s41551-022-00942-8",
+      "accessDate": "2025-12-19",
+      "notes": "Zero-shot on MIMIC-CXR test set."
+    },
+    {
+      "model": "torchxrayvision",
+      "dataset": "mimic-cxr",
+      "metric": "auroc",
+      "value": 86.3,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/mlmed/torchxrayvision",
+      "accessDate": "2025-12-19",
+      "notes": "Evaluated on MIMIC-CXR labels."
+    },
+    {
+      "model": "convirt",
+      "dataset": "mimic-cxr",
+      "metric": "auroc",
+      "value": 85.7,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2010.00747",
+      "accessDate": "2025-12-19",
+      "notes": "Contrastive pre-training on paired image-text."
+    },
+    {
+      "model": "rad-dino",
+      "dataset": "vindr-cxr",
+      "metric": "auroc",
+      "value": 91.2,
+      "source": "microsoft-research",
+      "sourceUrl": "https://arxiv.org/abs/2311.03854",
+      "accessDate": "2025-12-19",
+      "notes": "Self-supervised radiology foundation model."
+    },
+    {
+      "model": "torchxrayvision",
+      "dataset": "vindr-cxr",
+      "metric": "auroc",
+      "value": 87.9,
+      "source": "research-paper",
+      "sourceUrl": "https://www.nature.com/articles/s41597-022-01498-w",
+      "accessDate": "2025-12-19",
+      "notes": "Transfer from multi-dataset pre-training."
+    },
+    {
+      "model": "densenet-121-cxr",
+      "dataset": "rsna-pneumonia",
+      "metric": "auroc",
+      "value": 88.5,
+      "source": "kaggle-competition",
+      "sourceUrl": "https://www.kaggle.com/c/rsna-pneumonia-detection-challenge",
+      "accessDate": "2025-12-19",
+      "notes": "Competition baseline."
+    },
+    {
+      "model": "chexnet",
+      "dataset": "rsna-pneumonia",
+      "metric": "auroc",
+      "value": 87.2,
+      "source": "research-paper",
+      "sourceUrl": "https://pubs.rsna.org/doi/10.1148/ryai.2019180041",
+      "accessDate": "2025-12-19",
+      "notes": "CheXNet transfer to RSNA dataset."
+    },
+    {
+      "model": "torchxrayvision",
+      "dataset": "padchest",
+      "metric": "auroc",
+      "value": 84.6,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/mlmed/torchxrayvision",
+      "accessDate": "2025-12-19",
+      "notes": "PadChest is included in multi-dataset training."
+    },
+    {
+      "model": "densenet-121-cxr",
+      "dataset": "covid-chestxray",
+      "metric": "auroc",
+      "value": 94.7,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2003.11597",
+      "accessDate": "2025-12-19",
+      "notes": "COVID-19 vs Normal classification. High accuracy due to distinct patterns."
+    },
+    {
+      "model": "torchxrayvision",
+      "dataset": "covid-chestxray",
+      "metric": "auroc",
+      "value": 93.2,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/mlmed/torchxrayvision",
+      "accessDate": "2025-12-19",
+      "notes": "Pre-trained model fine-tuned for COVID detection."
+    },
+    {
+      "model": "patchcore",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 99.1,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2106.08265",
+      "accessDate": "2025-12-19",
+      "notes": "Image-level AUROC. State-of-the-art with WideResNet-50 backbone."
+    },
+    {
+      "model": "efficientad",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 99.1,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2303.14535",
+      "accessDate": "2025-12-19",
+      "notes": "Matches PatchCore with 614 FPS inference."
+    },
+    {
+      "model": "simplenet",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 99.6,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2303.15140",
+      "accessDate": "2025-12-19",
+      "notes": "State-of-the-art on MVTec AD. Simple architecture."
+    },
+    {
+      "model": "padim",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 97.9,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2011.08785",
+      "accessDate": "2025-12-19",
+      "notes": "ResNet-18 backbone. Fast inference."
+    },
+    {
+      "model": "fastflow",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 99.4,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2111.07677",
+      "accessDate": "2025-12-19",
+      "notes": "2D normalizing flow. Good speed-accuracy tradeoff."
+    },
+    {
+      "model": "draem",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 98.0,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2108.07610",
+      "accessDate": "2025-12-19",
+      "notes": "Discriminatively trained reconstruction."
+    },
+    {
+      "model": "cflow-ad",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 98.3,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2107.12571",
+      "accessDate": "2025-12-19",
+      "notes": "Conditional normalizing flows."
+    },
+    {
+      "model": "reverse-distillation",
+      "dataset": "mvtec-ad",
+      "metric": "auroc",
+      "value": 98.5,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2201.10703",
+      "accessDate": "2025-12-19",
+      "notes": "Knowledge distillation approach."
+    },
+    {
+      "model": "patchcore",
+      "dataset": "visa",
+      "metric": "auroc",
+      "value": 92.1,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2211.14842",
+      "accessDate": "2025-12-19",
+      "notes": "VisA is more challenging than MVTec."
+    },
+    {
+      "model": "simplenet",
+      "dataset": "visa",
+      "metric": "auroc",
+      "value": 95.5,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2303.15140",
+      "accessDate": "2025-12-19",
+      "notes": "Strong generalization to VisA."
+    },
+    {
+      "model": "efficientad",
+      "dataset": "visa",
+      "metric": "auroc",
+      "value": 94.8,
+      "source": "research-paper",
+      "sourceUrl": "https://arxiv.org/abs/2303.14535",
+      "accessDate": "2025-12-19",
+      "notes": "Fast inference on VisA."
+    },
+    {
+      "model": "yolov8-weld",
+      "dataset": "weld-defect-xray",
+      "metric": "map",
+      "value": 87.3,
+      "source": "research",
+      "sourceUrl": "https://www.kaggle.com/datasets/sukmaadhiwijaya/welding-defect-object-detection",
+      "accessDate": "2025-12-19",
+      "notes": "YOLOv8m fine-tuned on weld defect dataset."
+    },
+    {
+      "model": "defectdet-resnet",
+      "dataset": "neu-det",
+      "metric": "map",
+      "value": 78.4,
+      "source": "research",
+      "sourceUrl": "http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/",
+      "accessDate": "2025-12-19",
+      "notes": "ResNet-50 + FPN on steel surface defects."
+    },
+    {
+      "model": "yolov8-weld",
+      "dataset": "severstal-steel",
+      "metric": "dice",
+      "value": 91.2,
+      "source": "kaggle",
+      "sourceUrl": "https://www.kaggle.com/c/severstal-steel-defect-detection",
+      "accessDate": "2025-12-19",
+      "notes": "Kaggle competition top solution."
+    }
+  ],
+  "speedBenchmarks": [],
+  "pendingVerification": [
+    {
+      "model": "trocr-large",
+      "dataset": "sroie",
+      "metric": "f1",
+      "claimedValue": 96.58,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2109.10282",
+      "status": "needs-pdf-verification",
+      "notes": "TrOCR paper claims SOTA on SROIE. Exact number needs verification from PDF."
+    },
+    {
+      "model": "trocr-large",
+      "dataset": "iam",
+      "metric": "cer",
+      "claimedValue": 2.89,
+      "source": "arxiv-paper",
+      "sourceUrl": "https://arxiv.org/abs/2109.10282",
+      "status": "needs-pdf-verification",
+      "notes": "TrOCR paper claims SOTA on IAM handwriting. Exact number needs verification from PDF."
+    },
+    {
+      "model": "paddleocr-v4",
+      "dataset": "icdar-2015",
+      "metric": "f1",
+      "claimedValue": null,
+      "source": "github-readme",
+      "sourceUrl": "https://github.com/PaddlePaddle/PaddleOCR",
+      "status": "needs-documentation-verification",
+      "notes": "PaddleOCR claims top performance but exact ICDAR 2015 numbers not found in README. Check benchmark docs."
+    },
+    {
+      "model": "polish-roberta-ocr",
+      "dataset": "poleval-2021-ocr",
+      "metric": "cer",
+      "value": 2.1,
+      "source": "poleval-2021",
+      "sourceUrl": "http://2021.poleval.pl/tasks/task1",
+      "accessDate": "2025-12-19",
+      "notes": "Winning solution at PolEval 2021 OCR Correction Task. Uses Polish RoBERTa for sequence-to-sequence correction."
+    },
+    {
+      "model": "polish-t5-ocr",
+      "dataset": "poleval-2021-ocr",
+      "metric": "cer",
+      "value": 2.4,
+      "source": "poleval-2021",
+      "sourceUrl": "http://2021.poleval.pl/tasks/task1",
+      "accessDate": "2025-12-19",
+      "notes": "Polish T5-based OCR correction model. Second place at PolEval 2021."
+    },
+    {
+      "model": "herbert",
+      "dataset": "poleval-2021-ocr",
+      "metric": "cer",
+      "value": 2.8,
+      "source": "poleval-2021",
+      "sourceUrl": "http://2021.poleval.pl/tasks/task1",
+      "accessDate": "2025-12-19",
+      "notes": "HerBERT-based OCR correction approach. Strong baseline for Polish OCR."
+    },
+    {
+      "model": "abbyy-finereader",
+      "dataset": "impact-psnc",
+      "metric": "cer",
+      "value": 1.2,
+      "source": "impact-project",
+      "sourceUrl": "https://dl.psnc.pl/activities/projekty/impact/",
+      "accessDate": "2025-12-19",
+      "notes": "ABBYY FineReader performance on Polish historical documents. Best on antiqua fonts."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "impact-psnc",
+      "metric": "cer",
+      "value": 3.8,
+      "source": "impact-project",
+      "sourceUrl": "https://dl.psnc.pl/activities/projekty/impact/",
+      "accessDate": "2025-12-19",
+      "notes": "Tesseract with Polish language model on IMPACT-PSNC benchmark. Lower accuracy on gothic fonts."
+    },
+    {
+      "model": "abbyy-finereader",
+      "dataset": "impact-psnc",
+      "metric": "word-accuracy",
+      "value": 97.5,
+      "source": "impact-project",
+      "sourceUrl": "https://dl.psnc.pl/activities/projekty/impact/",
+      "accessDate": "2025-12-19",
+      "notes": "Word-level accuracy on Polish historical documents from four digital libraries."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "impact-psnc",
+      "metric": "word-accuracy",
+      "value": 92.1,
+      "source": "impact-project",
+      "sourceUrl": "https://dl.psnc.pl/activities/projekty/impact/",
+      "accessDate": "2025-12-19",
+      "notes": "Tesseract word-level accuracy. Struggles with Polish diacritics in gothic fonts."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "codesota-polish",
+      "metric": "cer",
+      "value": 26.3,
+      "source": "codesota",
+      "sourceUrl": "https://codesota.com/polish-ocr",
+      "accessDate": "2025-12-20",
+      "notes": "Tesseract 5.5.1 baseline on CodeSOTA Polish benchmark (1000 images). Overall CER across all 4 categories and 5 degradation levels."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "codesota-polish",
+      "metric": "wer",
+      "value": 38.5,
+      "source": "codesota",
+      "sourceUrl": "https://codesota.com/polish-ocr",
+      "accessDate": "2025-12-20",
+      "notes": "Tesseract 5.5.1 Word Error Rate. Higher than CER due to diacritic confusion causing whole-word failures."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "codesota-polish",
+      "metric": "accuracy",
+      "value": 73.7,
+      "source": "codesota",
+      "sourceUrl": "https://codesota.com/polish-ocr",
+      "accessDate": "2025-12-20",
+      "notes": "Character-level accuracy (100% - CER). Synthetic text categories drag down the overall score."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "codesota-polish-wikipedia",
+      "metric": "cer",
+      "value": 5.2,
+      "source": "codesota",
+      "sourceUrl": "https://codesota.com/polish-ocr",
+      "accessDate": "2025-12-20",
+      "notes": "Best category - potential data contamination from training on Wikipedia text. CER 94.8% accuracy."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "codesota-polish-real",
+      "metric": "cer",
+      "value": 7.3,
+      "source": "codesota",
+      "sourceUrl": "https://codesota.com/polish-ocr",
+      "accessDate": "2025-12-20",
+      "notes": "Real Polish corpus (Pan Tadeusz, official documents). CER 92.7% accuracy."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "codesota-polish-synth-random",
+      "metric": "cer",
+      "value": 40.6,
+      "source": "codesota",
+      "sourceUrl": "https://codesota.com/polish-ocr",
+      "accessDate": "2025-12-20",
+      "notes": "Random Polish character sequences - no language model assistance. Tests pure character recognition."
+    },
+    {
+      "model": "tesseract-polish",
+      "dataset": "codesota-polish-synth-words",
+      "metric": "cer",
+      "value": 52.1,
+      "source": "codesota",
+      "sourceUrl": "https://codesota.com/polish-ocr",
+      "accessDate": "2025-12-20",
+      "notes": "Markov-generated Polish-like words. No dictionary fallback possible - worst category for Tesseract."
+    },
+    {
+      "model": "claude-sonnet-4",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 77.2,
+      "source": "anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/swe-bench-sonnet",
+      "accessDate": "2025-12-24",
+      "notes": "10 trials averaged, no test-time compute, 200K thinking budget on full 500-problem set."
+    },
+    {
+      "model": "claude-sonnet-4-high-compute",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 82.0,
+      "source": "anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/swe-bench-sonnet",
+      "accessDate": "2025-12-24",
+      "notes": "High compute configuration."
+    },
+    {
+      "model": "claude-opus-4.5",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 74.6,
+      "source": "llm-stats",
+      "sourceUrl": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "accessDate": "2025-12-24",
+      "notes": "Non-thinking mode."
+    },
+    {
+      "model": "o3",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 72.0,
+      "source": "openai",
+      "sourceUrl": "https://openai.com/index/introducing-swe-bench-verified/",
+      "accessDate": "2025-12-24",
+      "notes": "OpenAI o3 reasoning model."
+    },
+    {
+      "model": "claude-3.7-sonnet",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 70.3,
+      "source": "anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "accessDate": "2025-12-24",
+      "notes": "With custom scaffold."
+    },
+    {
+      "model": "claude-3.5-sonnet",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 49.0,
+      "source": "anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "accessDate": "2025-12-24",
+      "notes": "October 2024 upgraded version."
+    },
+    {
+      "model": "o1",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 48.9,
+      "source": "openai",
+      "sourceUrl": "https://openai.com/index/introducing-swe-bench-verified/",
+      "accessDate": "2025-12-24",
+      "notes": "OpenAI o1 reasoning model."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "swe-bench-verified",
+      "metric": "accuracy",
+      "value": 33.2,
+      "source": "openai",
+      "sourceUrl": "https://openai.com/index/introducing-swe-bench-verified/",
+      "accessDate": "2025-12-24",
+      "notes": "Best performing scaffold, August 2024."
+    },
+    {
+      "model": "o3",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 96.7,
+      "source": "openai",
+      "sourceUrl": "https://www.thealgorithmicbridge.com/p/openai-o3-model-is-a-message-from",
+      "accessDate": "2025-12-24",
+      "notes": "OpenAI o3 on AIME 2024 math olympiad qualifying exam."
+    },
+    {
+      "model": "o1",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 83.3,
+      "source": "openai",
+      "sourceUrl": "https://www.thealgorithmicbridge.com/p/openai-o3-model-is-a-message-from",
+      "accessDate": "2025-12-24",
+      "notes": "OpenAI o1 reasoning model."
+    },
+    {
+      "model": "deepseek-r1",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 79.8,
+      "source": "vals-ai",
+      "sourceUrl": "https://www.vals.ai/benchmarks/aime-2025-03-11",
+      "accessDate": "2025-12-24",
+      "notes": "DeepSeek R1 open-source reasoning model."
+    },
+    {
+      "model": "o1",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 74.4,
+      "source": "vellum",
+      "sourceUrl": "https://www.vellum.ai/blog/analysis-openai-o1-vs-gpt-4o",
+      "accessDate": "2025-12-24",
+      "notes": "International Mathematical Olympiad qualifying exam."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "aime-2024",
+      "metric": "accuracy",
+      "value": 9.3,
+      "source": "vellum",
+      "sourceUrl": "https://www.vellum.ai/blog/analysis-openai-o1-vs-gpt-4o",
+      "accessDate": "2025-12-24",
+      "notes": "Non-reasoning model baseline."
+    },
+    {
+      "model": "o3",
+      "dataset": "gpqa-diamond",
+      "metric": "accuracy",
+      "value": 87.7,
+      "source": "epoch-ai",
+      "sourceUrl": "https://epoch.ai/benchmarks/gpqa-diamond",
+      "accessDate": "2025-12-24",
+      "notes": "Well above PhD expert performance (65%)."
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "dataset": "gpqa-diamond",
+      "metric": "accuracy",
+      "value": 86.4,
+      "source": "epoch-ai",
+      "sourceUrl": "https://epoch.ai/benchmarks/gpqa-diamond",
+      "accessDate": "2025-12-24",
+      "notes": "Google Gemini 2.5 Pro."
+    },
+    {
+      "model": "o1",
+      "dataset": "gpqa-diamond",
+      "metric": "accuracy",
+      "value": 77.3,
+      "source": "openai",
+      "sourceUrl": "https://klu.ai/glossary/gpqa-eval",
+      "accessDate": "2025-12-24",
+      "notes": "Zero-shot pass@1. First model to surpass PhD expert baseline."
+    },
+    {
+      "model": "o3-mini",
+      "dataset": "gpqa-diamond",
+      "metric": "accuracy",
+      "value": 75.0,
+      "source": "epoch-ai",
+      "sourceUrl": "https://epoch.ai/benchmarks/gpqa-diamond",
+      "accessDate": "2025-12-24",
+      "notes": "Average accuracy."
+    },
+    {
+      "model": "claude-3.5-sonnet",
+      "dataset": "gpqa-diamond",
+      "metric": "accuracy",
+      "value": 59.4,
+      "source": "epoch-ai",
+      "sourceUrl": "https://epoch.ai/benchmarks/gpqa-diamond",
+      "accessDate": "2025-12-24",
+      "notes": "Zero-shot Chain-of-Thought, June 2024."
+    },
+    {
+      "model": "gpt-4o",
+      "dataset": "gpqa-diamond",
+      "metric": "accuracy",
+      "value": 50.6,
+      "source": "epoch-ai",
+      "sourceUrl": "https://epoch.ai/benchmarks/gpqa-diamond",
+      "accessDate": "2025-12-24",
+      "notes": "Non-reasoning model."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "02-27-2025": {
+    "model": "GPT-4.5",
+    "sourceUrl": "https://openai.com/index/introducing-gpt-4-5/",
+    "benchmarks": {
+      "SWE-Lancer Diamond": "32.6%",
+      "SWE-Bench Verified": "38.0%"
+    }
+  },
+  "04-16-2025": {
+    "model": "o3 / o4-mini (reasoning series)",
+    "sourceUrl": "https://openai.com/index/introducing-o3-and-o4-mini/",
+    "benchmarks": {
+      "SWE-Bench Verified": "71.7%"
+    },
+    "notes": "According to secondary sources reporting o3's SWE-bench Verified performance"
+  },
+  "08-07-2025": {
+    "model": "GPT-5",
+    "sourceUrl": "https://openai.com/index/introducing-gpt-5/",
+    "benchmarks": {
+      "SWE-Bench Verified": "74.9%"
+    }
+  },
+  "11-13-2025": {
+    "model": "GPT-5.1",
+    "sourceUrl": "https://openai.com/index/gpt-5-1/",
+    "benchmarks": {
+      "SWE-Bench Verified": "76.3%"
+    }
+  },
+  "12-11-2025": {
+    "model": "GPT-5.2 Thinking",
+    "sourceUrl": "https://openai.com/index/gpt-5-2/",
+    "benchmarks": {
+      "SWE-Bench Pro": "55.6%",
+      "SWE-Bench Verified": "80.0%",
+      "SWE-Lancer, IC Diamond": "74.6%"
+    }
+  }
+}
+

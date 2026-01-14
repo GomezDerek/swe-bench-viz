@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # ---- Step 1: Load the CSV file ----
-csv_file = "AI_benchmarks_2025.csv"
+csv_file = "data/AI_benchmarks_2025.csv"
 df = pd.read_csv(csv_file)
 
 # Convert 'date' to datetime format
