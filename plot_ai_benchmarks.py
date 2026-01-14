@@ -33,7 +33,7 @@ for vendor in vendors:
 fig.update_layout(
     title="The AI Coding Race (2025)",
     xaxis_title="Date",
-    yaxis_title="SWE-Bench Verified",
+    yaxis_title="SWE-Bench Verified Score",
     xaxis=dict(showgrid=True, hoverformat="%b %d, %Y"),
     yaxis=dict(showgrid=True, range=[35,85], ticksuffix="%"),
     legend=dict(

@@ -38,12 +38,12 @@ for vendor in vendors:
         line=dict(color=colors.get(vendor, '#999999'), width=3),
         marker=dict(size=8),
         text=vendor_df['model'],
-        hovertemplate='<b>%{text}</b><br>Date: %{x|%b %d, %Y}<br>Score: %{y}%<extra></extra>'
+        hovertemplate='<b>%{text}</b><br>Date: %{x|%b %d, %Y}<br>Score: %{y}<extra></extra>'
     ))
 
 # ---- Step 3: Update layout ----
 fig.update_layout(
-    title="The Evolution of AI Coding: HumanEval Pass@1 (2021-2025)",
+    title="The AI Coding Race (2021-2025)",
     xaxis_title="Date",
     yaxis_title="HumanEval Pass@1 Score",
     xaxis=dict(showgrid=True, hoverformat="%b %d, %Y"),
