@@ -26,7 +26,7 @@ for vendor in vendors:
         marker=dict(size=8),
         text=vendor_df['model'],
         # Individual hover tooltip (disabled for unified mode):
-        hovertemplate='<b>%{text}</b><br>Date: %{x|%b %d, %Y}<br>Score: %{y}%<extra></extra>'
+        hovertemplate='<b>%{text}</b><br>Date: %{x|%b %d, %Y}<br>Score: %{y}<extra></extra>'
     ))
 
 # ---- Step 3: Update layout ----
@@ -53,6 +53,6 @@ fig.update_layout(
 )
 
 # ---- Step 5: Save and show figure ----
-fig.write_html("benchmark_chart.html")
+fig.write_html("chart.html")
 fig.show()
 
