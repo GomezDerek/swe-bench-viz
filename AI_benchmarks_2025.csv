@@ -11,4 +11,4 @@ date,model,vendor,swe_bench_verified,osworld,terminal_bench_2.0,vending_bench_t2
 03-01-2025,Gemini 2.5 Pro,Google,59.6,,,32.6
 08-01-2025,Grok Code Fast,xAI,70.8,,,
 12-11-2025,GPT-5.2 Thinking,OpenAI,80.0,,,55.6
-
+08-21-2025,DeepSeek-V3.1,DeepSeek,66.0,,31.3,

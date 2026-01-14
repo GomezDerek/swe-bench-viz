@@ -13,7 +13,7 @@ df = df.sort_values('date')
 fig = go.Figure()
 
 vendors = df['vendor'].unique()
-colors = {"OpenAI":"#16ac86","Anthropic":"#d97757","Google":"#3b8cff","xAI":"#000000"}
+colors = {"OpenAI":"#16ac86","Anthropic":"#d97757","Google":"#3b8cff","xAI":"#000000","DeepSeek":"#4763d5"}
 
 for vendor in vendors:
     vendor_df = df[df['vendor']==vendor]
